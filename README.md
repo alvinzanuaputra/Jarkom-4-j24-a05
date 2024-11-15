@@ -55,305 +55,9 @@ _Put IP prefix used below:_
 
 <br>
 
-## VLSM
-
-### Tree
-
-- Tree image
-
-  `Put your tree image here || Masukkan gambar tree di sini`
-
-- IP distribution table
-
-  `Put your IP distribution based on the tree here || Masukkan tabel distribusi IP berdasarkan tree di sini`
-
-### Subnetting (If you use CPT)
-
-`Put your subnetting configuration for each router, client, and server visualized in topology here || Masukkan konfigurasi untuk masing-masing router, client, dan server yang divisualisasikan pada topologi di sini`
-
-### Subnetting (If you use GNS3)
-
-Configuration to every router, client, and server for subnetting.
-
-- Kamachi:
-
-  ```
-    Put your configuration here
-  ```
-
-- Fiamma:
-
-  ```
-    Put your configuration here
-  ```
-
-- GoldenDawn:
-
-  ```
-    Put your configuration here
-  ```
-
-- Necessarius:
-
-  ```
-    Put your configuration here
-  ```
-
-- Alice:
-
-  ```
-    Put your configuration here
-  ```
-
-- Kihara:
-
-  ```
-    Put your configuration here
-  ```
-
-- Vento:
-
-  ```
-    Put your configuration here
-  ```
-
-- Terra:
-
-  ```
-    Put your configuration here
-  ```
-
-- Acqua:
-
-  ```
-    Put your configuration here
-  ```
-
-- Aiwass:
-
-  ```
-    Put your configuration here
-  ```
-
-- Aleister:
-
-  ```
-    Put your configuration here
-  ```
-
-- Mathers:
-
-  ```
-    Put your configuration here
-  ```
-
-- Coronzon:
-
-  ```
-    Put your configuration here
-  ```
-
-- Elizard:
-
-  ```
-    Put your configuration here
-  ```
-
-- Index:
-
-  ```
-    Put your configuration here
-  ```
-
-- Magnus:
-
-  ```
-    Put your configuration here
-  ```
-
-- Gremlin:
-
-  ```
-    Put your configuration here
-  ```
-
-- Thor:
-
-  ```
-    Put your configuration here
-  ```
-
-- Othinus:
-
-  ```
-    Put your configuration here
-  ```
-
-- LastOrder:
-
-  ```
-    Put your configuration here
-  ```
-
-- Leivinia:
-
-  ```
-    Put your configuration here
-  ```
-
-- Fuze:
-
-  ```
-    Put your configuration here
-  ```
-
-- Accel:
-
-  ```
-    Put your configuration here
-  ```
-
-- Railgun:
-
-  ```
-    Put your configuration here
-  ```
-
-- MeltDowner:
-
-  ```
-    Put your configuration here
-  ```
-
-- MentalOut:
-
-  ```
-    Put your configuration here
-  ```
-
-- DarkMatter:
-
-  ```
-    Put your configuration here
-  ```
-
-- Noukan:
-
-  ```
-    Put your configuration here
-  ```
-
-### Routing
-
-Configuration to every router for routing.
-
-- Kamachi:
-
-  ```
-    Put your configuration here
-  ```
-
-- Fiamma:
-
-  ```
-    Put your configuration here
-  ```
-
-- GoldenDawn:
-
-  ```
-    Put your configuration here
-  ```
-
-- Necessarius:
-
-  ```
-    Put your configuration here
-  ```
-
-- Alice:
-
-  ```
-    Put your configuration here
-  ```
-
-- Kihara:
-
-  ```
-    Put your configuration here
-  ```
-
-- Vento:
-
-  ```
-    Put your configuration here
-  ```
-
-- Coronzon:
-
-  ```
-    Put your configuration here
-  ```
-
-- Index:
-
-  ```
-    Put your configuration here
-  ```
-
-- Gremlin:
-
-  ```
-    Put your configuration here
-  ```
-
-- LastOrder:
-
-  ```
-    Put your configuration here
-  ```
-
-- Accel:
-
-  ```
-    Put your configuration here
-  ```
-
-- Railgun:
-
-  ```
-    Put your configuration here
-  ```
-
-### Testing
-
-- Client - client
-
-  `Put your testing screenshot in here`
-
-- Client - Server
-
-  `Put your testing screenshot in here`
-
-- Client - Router
-
-  `Put your testing screenshot in here`
-
-- Server - Server
-
-  `Put your testing screenshot in here`
-
-- Server - Router
-
-  `Put your testing screenshot in here`
-
-- Router - Router
-
-  `Put your testing screenshot in here`
-
-<br>
-
 ## CIDR
+
+
 
 ### Tree
 
@@ -367,27 +71,57 @@ Configuration to every router for routing.
 
 ### Subnet Merging Iteration
 
+![](assets/image/Tabel-Rute.PNG)
+
+- Iteration 0
+
+![](assets/image/CIDR-Subnet-Merge-0.png)
+
 - Iteration 1
 
-  `Put your iteration table here || Masukkan tabel iterasi di sini`
+Setelah melihat-lihat pada gambar Merge-0 atau Routing Visualization Awal, dapat dilihat Subnet A11 dan A20 mempunyai jarak terjauh, dengan harus melalui 3 subnet untuk sampai di Router Root.
+
+![](assets/image/CIDR-Subnet-Merge-1.png)
+![](assets/image/CIDR-Iteration-Table-1.PNG)
 
 - Iteration 2
 
-  `Put your iteration table here || Masukkan tabel iterasi di sini`
+![](assets/image/CIDR-Subnet-Merge-2.png)
+![](assets/image/CIDR-Iteration-Table-2.png)
 
-...
+- Iteration 3
 
-- Iteration x
+![](assets/image/CIDR-Subnet-Merge-3.png)
+![](assets/image/CIDR-Iteration-Table-3.png)
 
-  `Put your iteration table here || Masukkan tabel iterasi di sini`
+- Iteration 4
+
+![](assets/image/CIDR-Subnet-Merge-4.png)
+![](assets/image/CIDR-Iteration-Table-4.png)
+
+- Iteration 5
+
+![](assets/image/CIDR-Subnet-Merge-5.png)
+![](assets/image/CIDR-Iteration-Table-5.png)
+
+- Iteration 6
+
+![](assets/image/CIDR-Subnet-Merge-6.png)
+![](assets/image/CIDR-Iteration-Table-6.png)
+
+- Iteration 7
+
+![](assets/image/CIDR-Subnet-Merge-7.png)
+![](assets/image/CIDR-Iteration-Table-7.png)
+
+- Iteration 8
+
+![](assets/image/CIDR-Subnet-Merge-8.png)
+![](assets/image/CIDR-Iteration-Table-8.png)
 
 ### Subnetting (If you use CPT)
 
 `Put your subnetting configuration for each router, client, and server visualized in topology here || Masukkan konfigurasi untuk masing-masing router, client, dan server yang divisualisasikan pada topologi di sini`
-
-### Subnetting (If you use GNS3)
-
-Configuration to every router, client, and server for subnetting.
 
 - Kamachi:
 
