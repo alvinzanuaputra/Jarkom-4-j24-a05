@@ -63,11 +63,11 @@ _Put IP prefix used below:_
 
 - Tree image
 
-  `Put your tree image here || Masukkan gambar tree di sini`
+![](assets/image/CIDR-Tree.png)
 
 - IP distribution table
 
-  `Put your IP distribution based on the tree here || Masukkan tabel distribusi IP berdasarkan tree di sini`
+![](assets/image//IP-Distribution-Table-CIDR.PNG)
 
 ### Subnet Merging Iteration
 
